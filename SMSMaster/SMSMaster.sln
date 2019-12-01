@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSMaster.WebSite", "SMSMaster.WebSite\SMSMaster.WebSite.csproj", "{CBB2DF69-BC1D-46C0-A8A4-52156F45936E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSMaster.Tests", "SMSMaster.Tests\SMSMaster.Tests.csproj", "{4108D8F5-6734-4628-B314-BC60E8AF0D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSMaster.Services.ModemService", "SMSMaster.Services.ModemService\SMSMaster.Services.ModemService.csproj", "{21EF5FC7-FCEB-4ACE-9780-E08C821AC911}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSMaster.Services", "SMSMaster.Services\SMSMaster.Services.csproj", "{DF68BAE1-3937-4A91-9FF5-1BE428D9640F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSMaster.Services.Interfaces", "SMSMaster.Services.Interfaces\SMSMaster.Services.Interfaces.csproj", "{91DB1BD2-D46C-4B2A-A3EA-CA3DAF2E79FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{91CC6217-5182-4B98-A629-C0674187612B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSMaster.Services.Tests", "SMSMaster.Services.Tests\SMSMaster.Services.Tests.csproj", "{D0402DC2-F741-4635-ABF5-EED26E003838}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSMaster.Services.Client.Tests", "SMSMaster.Services.Client.Tests\SMSMaster.Services.Client.Tests.csproj", "{07D45B0F-38EF-40B5-B419-5F7B016B1D03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBB2DF69-BC1D-46C0-A8A4-52156F45936E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB2DF69-BC1D-46C0-A8A4-52156F45936E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB2DF69-BC1D-46C0-A8A4-52156F45936E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB2DF69-BC1D-46C0-A8A4-52156F45936E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4108D8F5-6734-4628-B314-BC60E8AF0D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4108D8F5-6734-4628-B314-BC60E8AF0D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4108D8F5-6734-4628-B314-BC60E8AF0D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4108D8F5-6734-4628-B314-BC60E8AF0D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EF5FC7-FCEB-4ACE-9780-E08C821AC911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EF5FC7-FCEB-4ACE-9780-E08C821AC911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EF5FC7-FCEB-4ACE-9780-E08C821AC911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EF5FC7-FCEB-4ACE-9780-E08C821AC911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF68BAE1-3937-4A91-9FF5-1BE428D9640F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF68BAE1-3937-4A91-9FF5-1BE428D9640F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF68BAE1-3937-4A91-9FF5-1BE428D9640F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF68BAE1-3937-4A91-9FF5-1BE428D9640F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DB1BD2-D46C-4B2A-A3EA-CA3DAF2E79FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DB1BD2-D46C-4B2A-A3EA-CA3DAF2E79FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DB1BD2-D46C-4B2A-A3EA-CA3DAF2E79FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DB1BD2-D46C-4B2A-A3EA-CA3DAF2E79FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0402DC2-F741-4635-ABF5-EED26E003838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0402DC2-F741-4635-ABF5-EED26E003838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0402DC2-F741-4635-ABF5-EED26E003838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0402DC2-F741-4635-ABF5-EED26E003838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D45B0F-38EF-40B5-B419-5F7B016B1D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D45B0F-38EF-40B5-B419-5F7B016B1D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D45B0F-38EF-40B5-B419-5F7B016B1D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D45B0F-38EF-40B5-B419-5F7B016B1D03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4108D8F5-6734-4628-B314-BC60E8AF0D5B} = {91CC6217-5182-4B98-A629-C0674187612B}
+		{D0402DC2-F741-4635-ABF5-EED26E003838} = {91CC6217-5182-4B98-A629-C0674187612B}
+		{07D45B0F-38EF-40B5-B419-5F7B016B1D03} = {91CC6217-5182-4B98-A629-C0674187612B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {638CD2EE-C884-456B-A8E8-F34AA6B926DA}
+	EndGlobalSection
+EndGlobal

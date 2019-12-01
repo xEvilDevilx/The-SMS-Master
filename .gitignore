@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SMSMaster/.vs/SMSMaster
+/SMSMaster/SMSMaster.Services/bin/Debug/netstandard2.0
+/SMSMaster/SMSMaster.Services/obj
+/SMSMaster/SMSMaster.Services.Client.Tests/bin/Debug/netcoreapp2.1
+/SMSMaster/SMSMaster.Services.Client.Tests/obj
+/SMSMaster/SMSMaster.Services.Interfaces/bin/Debug/netstandard2.0
+/SMSMaster/SMSMaster.Services.Interfaces/obj
+/SMSMaster/SMSMaster.Services.ModemService/bin/Debug
+/SMSMaster/SMSMaster.Services.ModemService/obj
+/SMSMaster/SMSMaster.Services.Tests/bin/Debug
+/SMSMaster/SMSMaster.Services.Tests/obj
+/SMSMaster/SMSMaster.Tests/bin/Debug/netcoreapp2.1
+/SMSMaster/SMSMaster.Tests/obj
+/SMSMaster/SMSMaster.WebSite/bin/Debug/netcoreapp2.1
+/SMSMaster/SMSMaster.WebSite/obj
